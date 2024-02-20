@@ -1,0 +1,15 @@
+<div>
+    <li>id:{{fruits.id}}</li>
+    <li>Name:{{fruits.name}}</li>
+    <li>Kg:{{fruits.kg}}</li> 
+</div>
+       
+   
+
+
+    <label for="customer">Enter the customer name:</label>
+    <input type="text" id="customer" #newItem>
+    <button type="button" (click)="addNewItem(newItem.value)">Submit</button>
+
+
+
